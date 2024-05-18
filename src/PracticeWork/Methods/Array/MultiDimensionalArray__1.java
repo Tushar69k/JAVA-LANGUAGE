@@ -16,7 +16,7 @@ public class MultiDimensionalArray__1 {
             for (int j = 0; j < m; j++) {
                 System.out.print("Enter Element " + (i + 1) + (" ") + (j + 1) + (" : "));
                 flats[i][j] = Sc.nextInt();
-                //Hello
+
             }
         }
         for (int i = 0; i < n; i++) {
