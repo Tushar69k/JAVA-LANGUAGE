@@ -1,3 +1,4 @@
+// Use of For each loop
 package PracticeWork.CodesForSelfPractice.ARRAYS;
 
 import java.util.Scanner;
