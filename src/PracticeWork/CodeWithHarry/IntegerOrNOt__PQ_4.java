@@ -1,11 +1,9 @@
-package PracticeWork;
+//Question : Write program to check whether a number is entered by the user is Integer or not .
 
+package PracticeWork;
 import java.util.Scanner;
 
-/*
-WRITE A JAVA PROGRAM TO DETECT WHETHER A NUMBER ENTERED BY THE USER IS INTEGER OR NOT .
- */
-public class PQ_5 {
+public class IntegerOrNOt__PQ_4 {
 
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);

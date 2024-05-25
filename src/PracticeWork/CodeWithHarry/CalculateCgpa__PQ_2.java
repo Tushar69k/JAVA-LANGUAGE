@@ -1,11 +1,9 @@
-package PracticeWork;
-/*
-WRITE A PROGRAM TO CALCULATE CGPA USING MARKS OF THREE SUBJECTS ( OUT OF 100 )
- */
+//Question : Calculate Cgpa of Students in 3 subjects ( OUT OF 100 )
 
+package PracticeWork;
 import java.util.Scanner;
 
-public class PQ_2 {
+public class CalculateCgpa__PQ_2 {
     public static void main(String[] args) {
         System.out.println("PROGRAM TO CALCULATE CGPA ");
         System.out.println("ENTER YOUR SUBJECTS OF GIVEN SUBJECTS --->");

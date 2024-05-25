@@ -74,7 +74,7 @@ public class FunctionOfString__1 {
 
 // Use of indexOf()
         System.out.println("\n Using indexOf() function :: ");
-        System.out.println("Enter String with you have to Perform this Function : ");
+        System.out.println("Enter String with have to Perform this Function : ");
         String illuminati = sc.next();
         System.out.println("Enter the Character of your String whose Index you want to find : ");
         String find = sc.next();

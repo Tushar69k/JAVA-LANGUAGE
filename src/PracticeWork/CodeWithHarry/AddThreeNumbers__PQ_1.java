@@ -1,11 +1,9 @@
-package PracticeWork;
+// Question : Write program to add 3 numbers.
 
+package PracticeWork;
 import java.util.Scanner;
 
-/*
-WRITE A PROGRAM TO SUM THREE NUMBERS IN JAVA
- */
-public class PQ_1 {
+public class AddThreeNumbers__PQ_1 {
     public static void main(String[] args) {
         System.out.println("PROGRAM TO ADD THREE NUMBERS ");
         Scanner tush = new Scanner(System.in);

@@ -13,7 +13,7 @@ public class FIndAnIntegerIArray__5 {
 
         System.out.println("Enter the elements of Array :: ");
         for (int i = 0; i < count; i++) {
-            System.out.print("Enter Element " + i + " : ");
+            System.out.print("Enter Element " + (i + 1) + " : ");
             arr[i] = sc.nextInt();
         }
 
