@@ -1,12 +1,21 @@
 package PracticeWork.CodesForSelfPractice.PracticeQuestion;
-
 import java.util.*;
 
 public class ReversingNumber__3 {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
-        System.out.println("Enter the Number you want to reverse : ");
+
+        System.out.println("Enter the number : ");
         int num = tush.nextInt();
+        int reverse;
+
+        System.out.println("The reversed number is :  ");
+        while (num > 0) {
+            reverse = num % 10;
+            num = num / 10;
+            System.out.print(reverse);
+        }
+
 
     }
 }
