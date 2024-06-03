@@ -1,4 +1,4 @@
-package PracticeWork;
+package PracticeWork.CodesForSelfPractice.Basics;
 
 public class DataTypes_2 {
     public static void main(String[] args) {

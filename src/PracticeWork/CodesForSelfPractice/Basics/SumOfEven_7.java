@@ -1,4 +1,4 @@
-package PracticeWork;
+package PracticeWork.CodesForSelfPractice.Basics;
 
 import java.util.Scanner;
 

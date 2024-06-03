@@ -1,4 +1,4 @@
-package PracticeWork;
+package PracticeWork.CodesForSelfPractice.Basics;
 /*
 Write a program to calculate percentage of a given student in CBSE Board Exam . Take Marks of all 5 subjects from keyboard
  */
