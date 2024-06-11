@@ -27,4 +27,22 @@ public class Calculator_4 {
                 System.out.println("CHAL CHAL KE DIKHA ");
         }
     }
+
+    public static class AddThreeNumbers__PQ_1 {
+        public static void main(String[] args) {
+            System.out.println("PROGRAM TO ADD THREE NUMBERS ");
+            Scanner tush = new Scanner(System.in);
+            System.out.println("ENTER FIRST NUMBER :");
+            int a = tush.nextInt();
+            System.out.println("ENTER SECOND NUMBER :");
+            int b = tush.nextInt();
+            System.out.println("ENTER THIRD NUMBER :");
+            int c = tush.nextInt();
+            int sum = a + b + c;
+            System.out.println("THE SUM OF YOUR THREE NUMBERS IS : " + sum);
+
+        }
+
+
+    }
 }
