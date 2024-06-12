@@ -2,14 +2,15 @@ package PracticeWork.Alpha.Arrays;
 
 import java.util.*;
 
-public class MaxSubarraySum__PrefixSum__6 {
+public class KadanesTheorem__8 {
+
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
         int[] arr = Setarr();
         GetArr(arr);
-        int[] res = PrefixSum(arr);
-        ShowPrefixSum(res);
+        int[] res = Kadane(arr);
+        ShowKadane(res);
     }
 
     public static int[] Setarr() {
@@ -36,28 +37,40 @@ public class MaxSubarraySum__PrefixSum__6 {
         System.out.println();
     }
 
-    public static int[] PrefixSum(int[] arr) {
-        int[] PrefixArr = new int[arr.length];
-        PrefixArr[0] = arr[0];
+    public static int[] Kadane(int[] arr) {
+        int[] KadaneArr = new int[arr.length];
 
-        for (int i = 1; i < arr.length; i++) {
-            PrefixArr[i] = PrefixArr[i - 1] + arr[i];
-
+        if (arr[0] > 0) {
+            KadaneArr[0] = arr[0];
+        } else {
+            KadaneArr[0] = 0;
         }
 
-/* Eg  : 1 1 1 1 1
- 1 2 3 4 5
- */
+        for (int i = 1; i < arr.length; i++) {
+            KadaneArr[i] = KadaneArr[i - 1] + arr[i];
+            if (KadaneArr[i] < 0) {
+                KadaneArr[i] = 0;
+            }
+        }
+ /*
+ For Example :
+ Size of Array = 7
+         -2 -1  4  5 -6  10 -12
+          0  0  4  9  3  13  1
+  */
 
-        return PrefixArr;
+        return KadaneArr;
     }
 
-    public static void ShowPrefixSum(int[] PrefixArr) {
+    public static void ShowKadane(int[] PrefixArr) {
 
-        System.out.println(" Prefix Sum of Array is :: ");
+        System.out.println(" Kadane Sum of Array is :: ");
         for (int i = 0; i < PrefixArr.length; i++) {
             System.out.print(" | " + PrefixArr[i]);
         }
         System.out.print(" | ");
+
+
     }
 }
+
