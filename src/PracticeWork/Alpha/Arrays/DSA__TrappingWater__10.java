@@ -5,10 +5,10 @@ import java.util.*;
 public class DSA__TrappingWater__10 {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
-//    System.out.print( " Enter Size of Graph : ");
-//int size = tush.nextInt();
-//int[] Arr = Setarr(size);
-        int[] Arr = {4, 2, 0, 6, 3, 2, 5};
+        System.out.print(" Enter Size of Graph : ");
+        int size = tush.nextInt();
+        int[] Arr = Setarr(size);
+//        int[] Arr = {4, 2, 0, 6, 3, 2, 5};
         GetArr(Arr);
         System.out.println();
         Graph(Arr);
