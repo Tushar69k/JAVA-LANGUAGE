@@ -8,7 +8,8 @@ public class SelectionSort__2 {
 
         int[] arr = Setarr();
         GetArr(arr);
-        SelectionSort(arr);
+        SelectionSortAscending(arr);
+        SelectionSortDescending(arr);
     }
 
     public static int[] Setarr() {
@@ -27,14 +28,15 @@ public class SelectionSort__2 {
     }
 
     public static void GetArr(int[] arr) {
-        System.out.println("Elements in Array Are :: ");
+        System.out.println("\nElements in Array Are :: ");
         for (int i = 0; i < arr.length; i++) {
-            System.out.println("Element [" + (i + 1) + "] = " + arr[i]);
+            System.out.print(" | " + arr[i]);
         }
+        System.out.print(" | \n");
     }
 
 
-    public static void SelectionSort(int[] arr) {
+    public static void SelectionSortAscending(int[] arr) {
 
         for (int i = 0; i < arr.length; i++) {
             int min = i;
@@ -48,14 +50,34 @@ public class SelectionSort__2 {
             arr[i] = temp;
         }
 
+        System.out.println("\n  Selection Sort Ascending :: ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(" | " + arr[i]);
+        }
+        System.out.println(" | ");
+    }
+
+    public static void SelectionSortDescending(int[] arr) {
+
+        for (int i = 0; i < arr.length; i++) {
+            int min = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[min] < arr[j]) {
+                    min = j;
+                }
+            }
+            int temp = arr[min];
+            arr[min] = arr[i];
+            arr[i] = temp;
+        }
+
+        System.out.println("\n  Selection Sort Descending :: ");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(" | " + arr[i]);
         }
         System.out.println(" | ");
     }
 }
-
-
 /*
 
 Dry Run :
@@ -73,16 +95,19 @@ For 1st iteration i = 0 ; min = i = 0 ; j = i + 1 = 1
 
                 so here ,
                 arr[ 0 ]  > arr[ 1 ]
-                3   >   2   ( Not true )
+                3   >   2   ( true )
+  so , min = j (i.e) 1
+
+                //
 now ,
-                arr[ 0 ] > arr[ 2 ]
-                3   >   4  ( Not true )
+                arr[ 1 ] > arr[ 2 ]
+                2   >   4  ( Not true )
 now ,
-                    arr[ 0 ] > arr[ 3 ]
-                3   >   5  ( Not true )
+                    arr[ 1 ] > arr[ 3 ]
+                2   >   5  ( Not true )
 now ,
-                     arr[ 0 ] > arr[ 4 ]
-                3   >   1  ( true )
+                     arr[ 1 ] > arr[ 4 ]
+                2   >   1  ( true )
                 so , min = j (i.e) 4
 
 now ,
@@ -188,6 +213,8 @@ Our Array :  | 1 | 2 | 3 | 4 | 5 |
 Index :         0   1   2   3   4
 
 This is our Resulted Array
+
+
 
 
  */
