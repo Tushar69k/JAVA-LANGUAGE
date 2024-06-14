@@ -215,8 +215,6 @@ Index :         0   1   2   3   4
 This is our Resulted Array
 
 
-
-
  */
 
 
