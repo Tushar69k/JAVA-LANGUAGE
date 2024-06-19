@@ -5,7 +5,6 @@ import java.util.*;
 public class SelectionSort__2 {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
-
         int[] arr = Setarr();
         GetArr(arr);
         SelectionSortAscending(arr);
@@ -60,14 +59,15 @@ public class SelectionSort__2 {
     public static void SelectionSortDescending(int[] arr) {
 
         for (int i = 0; i < arr.length; i++) {
+            int max = i;
             int min = i;
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[min] < arr[j]) {
-                    min = j;
+                if (arr[min] > arr[j]) {
+                    max = j;
                 }
             }
-            int temp = arr[min];
-            arr[min] = arr[i];
+            int temp = arr[max];
+            arr[max] = arr[i];
             arr[i] = temp;
         }
 
