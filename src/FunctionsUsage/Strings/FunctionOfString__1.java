@@ -1,4 +1,4 @@
-package PracticeWork.FunctionsUsage.Strings;
+package FunctionsUsage.Strings;
 
 import java.util.*;
 

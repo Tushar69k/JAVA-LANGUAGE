@@ -1,5 +1,5 @@
 //Rock Paper Scissors Game
-package PracticeWork.Fun_Codes;
+package Fun_Codes;
 
 import java.util.*;
 

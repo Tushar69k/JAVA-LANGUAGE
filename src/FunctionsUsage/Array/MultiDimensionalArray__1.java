@@ -1,4 +1,4 @@
-package PracticeWork.FunctionsUsage.Array;
+package FunctionsUsage.Array;
 
 import java.util.Scanner;
 

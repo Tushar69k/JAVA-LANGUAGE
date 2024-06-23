@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="JAVA LANGUAGE" options="--add-exports java.base/com=ALL-UNNAMED" />
+      <module name="JavaWithTush" options="--add-exports java.base/com=ALL-UNNAMED" />
     </option>
   </component>
 </project>
