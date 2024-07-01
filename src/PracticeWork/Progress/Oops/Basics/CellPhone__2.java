@@ -1,4 +1,4 @@
-package PracticeWork.Progress.Classes;
+package PracticeWork.Progress.Oops.Basics;
 
 import java.util.*;
 
