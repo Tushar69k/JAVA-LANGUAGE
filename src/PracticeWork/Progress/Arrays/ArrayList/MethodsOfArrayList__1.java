@@ -88,5 +88,14 @@ public class MethodsOfArrayList__1 {
             System.out.println(b + ", Element exists !");
         } else System.out.println("Elements doesn't exists !");
 
+
+// If you don't Specify class, you can put anything inside it t
+        System.out.println("\nUsing Specify Class :: ");
+        System.out.println("in Specify class you can declare elements of all Datatypes : ");
+        ArrayList t = new ArrayList();
+        t.add("Tushar");
+        t.add(69);
+        t.add(9.45);
+        System.out.println(t);
     }
 }
