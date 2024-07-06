@@ -2,7 +2,7 @@
  letter = " Dear <!name!> , Wishing you a bright and prosperous future. ";
         Replace <!name!> with a string*/
 
-package PracticeWork.Progress.Strings;
+package PracticeWork.Progress.Strings.StringQuestions;
 
 import java.util.Scanner;
 

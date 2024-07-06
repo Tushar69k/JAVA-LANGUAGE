@@ -1,5 +1,5 @@
 //Question : Program to replace Spaces with Underscores
-package PracticeWork.Progress.Strings;
+package PracticeWork.Progress.Strings.StringQuestions;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class ReplaceSpaces__2 {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
-        System.out.println("Enter any Text : ");
+        System.out.print("Enter any Text : ");
         String str = tush.nextLine();
 
         System.out.println("Replacing Spaces with Underscores in Text ::");

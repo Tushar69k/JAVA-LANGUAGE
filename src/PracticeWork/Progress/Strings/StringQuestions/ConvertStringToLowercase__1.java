@@ -1,5 +1,5 @@
 //Question : Program to convert a String to UpperCase and LowerCase
-package PracticeWork.Progress.Strings;
+package PracticeWork.Progress.Strings.StringQuestions;
 
 import java.util.*;
 
