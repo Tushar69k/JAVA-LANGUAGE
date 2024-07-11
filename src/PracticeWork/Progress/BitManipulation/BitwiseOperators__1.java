@@ -64,6 +64,11 @@ public class BitwiseOperators__1 {
        Result - 0 0 1 1 --> 3
                 */
 
+        System.out.println("\nBinary Compliment (~) :");
+
+        System.out.print("Using Binary Compliment (~) for " + a + " : \n");
+        System.out.print("~" + a + " : ");
+        System.out.print(~a);
 
     }
 }
