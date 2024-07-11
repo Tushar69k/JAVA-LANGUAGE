@@ -9,6 +9,13 @@ public class BitwiseOperators__1 {
         int b = 6;
         System.out.println("Bitwise Operators ::");
 
+/*
+        A	    B	    A|B	    A&B	    A^B	    ~A
+        0	    0	    0	    0	    0	     1
+        1	    0	    1	    0	    1	     0
+        0	    1	    1	    0	    1	     1
+        1	    1	    1	    1	    0	     0
+*/
 
 // And (&) Operator
         System.out.print("\nAnd (&) Operator :\nUsing And (&) Operator for " + a + " , " + b + " : \n");
@@ -64,11 +71,35 @@ public class BitwiseOperators__1 {
        Result - 0 0 1 1 --> 3
                 */
 
+//Binary Compliment (~)
         System.out.println("\nBinary Compliment (~) :");
-
         System.out.print("Using Binary Compliment (~) for " + a + " : \n");
         System.out.print("~" + a + " : ");
         System.out.print(~a);
+
+
+// Left Shift << and Right Shift >> Operator ::
+        // It Also Performs Operations on Bits
+
+        //Left Shift Operator (<<)
+        System.out.println("\n\nLeft Shift Operator (<<) :");
+        System.out.println("Using Left Shift Operator (<<) for 9 , 2 : ");
+        System.out.print("9 << 2 : ");
+        System.out.print(9 << 2);
+        // This means we want to shift binary form of 9 by 2 position in left
+        // 9 --> 1001 :: the answer will be 100100 --> 36
+        // Formula :: a << b = a * 2^b
+
+
+        //Right Shift Operator (>>)
+        System.out.println("\n\nRight Shift Operator (>>) :");
+        System.out.println("Using Right Shift Operator (>>) for 10 , 2 : ");
+        System.out.print("10 >> 2 : ");
+        System.out.print(10 >> 2);
+        // This means we want to shift binary form of 9 by 2 position in right
+        // 10 --> 1010 :: the answer will be 0010 --> 2
+        // Formula :: a >> b = a / 2^b
+
 
     }
 }
