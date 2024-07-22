@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays;
 
 import java.util.*;
 
-public class BinarySearch_FindElementOfArray__1 {
+public class BinarySearch_FindElementOfArray {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter Size of Array : ");
@@ -23,7 +23,7 @@ public class BinarySearch_FindElementOfArray__1 {
         System.out.print("Enter the Element you want to find Index of : ");
         int find = tush.nextInt();
 
-        System.out.println(" The Index at " + find + " is : " + Binary(arr, find));
+        System.out.println("The Index at " + find + " is : " + Binary(arr, find));
 
     }
 
@@ -50,3 +50,4 @@ public class BinarySearch_FindElementOfArray__1 {
     }
 
 }
+
