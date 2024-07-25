@@ -1,15 +1,15 @@
-package PracticeWork.Progress.Oops;
+package PracticeWork.Progress.Oops.Classes.Constructors;
 
 import java.util.*;
 
-import static PracticeWork.Progress.Oops.Constructor__2.tush;
+import static PracticeWork.Progress.Oops.Classes.Constructors.DefaultConstructor.tush;
 
-public class Constructor__2 {
+public class DefaultConstructor {
     static Scanner tush = new Scanner(System.in);
 
     public static void main(String[] args) {
 
-        Movies m1 = new Movies();
+        Movies m1 = new Movies();// Default Constructor Called
         m1.ShowDetails();
 
     }
@@ -23,7 +23,7 @@ class Movies {
     int budget;
     float imdb;
 
-    Movies() {
+    Movies() { // Default Constructor Created
         System.out.print("Enter Movie Name : ");
         name = tush.next();
         System.out.print("Enter Release Year : ");

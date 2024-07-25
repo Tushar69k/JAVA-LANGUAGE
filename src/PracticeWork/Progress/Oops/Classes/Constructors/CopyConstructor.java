@@ -1,5 +1,4 @@
-package PracticeWork.Progress.Oops;
-
+package PracticeWork.Progress.Oops.Classes.Constructors;
 import java.util.*;
 
 public class CopyConstructor {
