@@ -13,7 +13,7 @@ package PracticeWork.Progress.Conditionals;
 
 import java.util.*;
 
-public class CalculateIncomeTax__1 {
+public class CalculateIncomeTax {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter your Income in Lakhs per annum : ");

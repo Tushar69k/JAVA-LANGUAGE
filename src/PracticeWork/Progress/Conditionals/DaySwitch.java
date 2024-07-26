@@ -3,7 +3,7 @@ package PracticeWork.Progress.Conditionals;
 
 import java.util.*;
 
-public class DaySwitch__2 {
+public class DaySwitch {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("Enter the number of Day : ");
