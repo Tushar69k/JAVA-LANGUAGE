@@ -3,7 +3,7 @@ package PracticeWork.Progress.MethodsAndFunctions;
 import java.util.Scanner;
 
 
-public class EvenorNot__11 {
+public class EvenorNot {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class EvenorNot__11 {
         } else {
             System.out.println(" Number is odd ");
         }
-        isEven(num);
+//        isEven(num);
     }
 
     public static boolean isEven(int number) {

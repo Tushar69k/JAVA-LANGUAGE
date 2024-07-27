@@ -115,17 +115,5 @@ public class Interface {
 
     }
 
-
-    static class Pawn implements ChessMoves {
-        public void moves() {
-            System.out.println("Moves : Up , Diagonal ( When have to Kill any piece ) - ( 1 Step in any Direction)");
-        }
-
-        public void Power() {
-            System.out.println("Pawn is least Powerful Piece.\n" +
-                    "Pawn Holds 1 Piece Value");
-        }
-
     }
 
-}
