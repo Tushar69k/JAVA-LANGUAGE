@@ -2,7 +2,7 @@ package PracticeWork.Progress.Loops;
 
 import java.util.*;
 
-public class MultiplicationTableInReverseOrder__5 {
+public class MultiplicationTableInReverseOrder {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 

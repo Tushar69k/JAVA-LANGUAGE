@@ -2,7 +2,7 @@ package PracticeWork.Progress.Loops;
 
 import java.util.*;
 
-public class Pattern__2 {
+public class Pattern {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         int num = tush.nextInt();

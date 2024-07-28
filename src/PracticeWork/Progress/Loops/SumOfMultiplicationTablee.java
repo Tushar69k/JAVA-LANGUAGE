@@ -3,7 +3,7 @@ package PracticeWork.Progress.Loops;
 
 import java.util.*;
 
-public class SumOfMultiplicationTable__7 {
+public class SumOfMultiplicationTablee {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         int sum = 0;
@@ -20,7 +20,7 @@ public class SumOfMultiplicationTable__7 {
             }
         }
 
-        System.out.println(" Sum of numbers in Multiplication Table of " + num + " is : " + sum);
+        System.out.println(" Sum of numbers in Multiplication Table of " + num + " upto 10 is : " + sum);
 
     }
 }
