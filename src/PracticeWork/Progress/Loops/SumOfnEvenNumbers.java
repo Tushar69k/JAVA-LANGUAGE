@@ -3,7 +3,7 @@ package PracticeWork.Progress.Loops;
 
 import java.util.*;
 
-public class SumOfnEvenNumbers__4 {
+public class SumOfnEvenNumbers {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter number upto which you want sum of Even numbers : ");
