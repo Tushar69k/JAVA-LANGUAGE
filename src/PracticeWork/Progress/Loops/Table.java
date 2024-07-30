@@ -2,7 +2,7 @@ package PracticeWork.Progress.Loops;
 
 import java.util.*;
 
-public class Table__1 {
+public class Table {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("Enter number whose Multiplication Table you want : ");
