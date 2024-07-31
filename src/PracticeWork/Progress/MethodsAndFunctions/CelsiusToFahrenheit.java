@@ -2,7 +2,7 @@ package PracticeWork.Progress.MethodsAndFunctions;
 
 import java.util.*;
 
-public class CelsiusToFahrenheit__9 {
+public class CelsiusToFahrenheit {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         int button;

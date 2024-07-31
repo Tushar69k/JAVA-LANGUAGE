@@ -5,7 +5,7 @@ package PracticeWork.Progress.MethodsAndFunctions;
 
 import java.util.*;
 
-public class FibonacciNthTerm__7 {
+public class FibonaccinthTerm {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter nth Term : ");

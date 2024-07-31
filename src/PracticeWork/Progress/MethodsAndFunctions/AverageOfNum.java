@@ -3,7 +3,7 @@ package PracticeWork.Progress.MethodsAndFunctions;
 
 import java.util.*;
 
-public class AverageOfNum__10 {
+public class AverageOfNum {
     static Scanner tush = new Scanner(System.in);
     static int Num1, Num2, Num3;
 
