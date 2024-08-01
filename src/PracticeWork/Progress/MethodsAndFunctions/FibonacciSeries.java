@@ -3,7 +3,7 @@ package PracticeWork.Progress.MethodsAndFunctions;
 
 import java.util.*;
 
-public class FibonacciSeries__6 {
+public class FibonacciSeries {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter Count : ");

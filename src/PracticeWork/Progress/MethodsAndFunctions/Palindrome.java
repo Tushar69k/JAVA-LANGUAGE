@@ -2,7 +2,7 @@ package PracticeWork.Progress.MethodsAndFunctions;
 
 import java.util.*;
 
-public class Palindrome__12 {
+public class Palindrome {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print(" Enter Number : ");
