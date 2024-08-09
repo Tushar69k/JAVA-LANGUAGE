@@ -3,7 +3,10 @@ package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 
 import java.util.*;
 
-public class FIndAnIntegerIArray__5 {
+public class
+
+
+CheckExistenceOfElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Size of the Array : ");
@@ -17,15 +20,15 @@ public class FIndAnIntegerIArray__5 {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println("\n");
+//        System.out.println("\n");
         System.out.println("Elements of Array are :: ");
 
         for (int i = 0; i < count; i++) {
-            System.out.print(" Element " + i + " is : ");
+            System.out.print("Element " + i + " is : ");
             System.out.println(arr[i]);
         }
 
-        System.out.print("\n Enter the integer you have to check : ");
+        System.out.print("\nEnter the integer you have to check : ");
         int check = sc.nextInt();
 
         for (int i = 0; i < count; i++) {
@@ -36,9 +39,9 @@ public class FIndAnIntegerIArray__5 {
         }
 
         if (flag == 1) {
-            System.out.println(" This Integer exists in the Array ");
+            System.out.println("This Integer exists in the Array ");
         } else {
-            System.out.println(" This Integer does'nt exists in the Array ");
+            System.out.println("This Integer does'nt exists in the Array ");
         }
 
     }
