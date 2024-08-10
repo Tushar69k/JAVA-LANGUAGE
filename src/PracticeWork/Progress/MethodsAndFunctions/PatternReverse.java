@@ -1,9 +1,8 @@
-//Question : Program using Functions to print Multiplication Table
 package PracticeWork.Progress.MethodsAndFunctions;
 
 import java.util.*;
 
-public class Pattern__2 {
+public class PatternReverse {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("Enter No. for Pattern : ");
@@ -12,8 +11,8 @@ public class Pattern__2 {
     }
 
     static void pattern(int num) {
-        for (int i = 0; i <= num; i++) {
-            for (int j = 0; j < i; j++) {
+        for (int i = num; i > 0; i--) {
+            for (int j = i; j > 0; j--) {
                 System.out.print(" * ");
             }
             System.out.print("\n");
@@ -22,3 +21,4 @@ public class Pattern__2 {
 
 
 }
+

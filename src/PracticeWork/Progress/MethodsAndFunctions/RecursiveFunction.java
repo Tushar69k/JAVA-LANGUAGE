@@ -4,7 +4,7 @@ package PracticeWork.Progress.MethodsAndFunctions;
 
 import java.util.*;
 
-public class RecursiveFunction__5 {
+public class RecursiveFunction {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
