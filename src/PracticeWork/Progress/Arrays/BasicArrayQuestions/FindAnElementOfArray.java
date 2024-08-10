@@ -5,31 +5,31 @@ package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 
 import java.util.Scanner;
 
-public class FindAnElementOfArray__2 {
+public class FindAnElementOfArray {
 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("ENTER THE SIZE OF YOUR ARRAY : ");
+        System.out.print("Enter Size of Your Array : ");
         int size = sc.nextInt();
         int[] numbers = new int[size];
 
-        System.out.println("ENTER THE ELEMETS IN YOUR ARRAY : ");
+        System.out.println("Enter the Elements in Array : ");
         for (int i = 0; i < size; i++) {
             System.out.print("Element [" + i + "] = ");
             numbers[i] = sc.nextInt();
         }
 
-        System.out.println("YOUR ELEMENTS ARE ------->");
+        System.out.println("Array's Elements :: ");
         for (int i = 0; i < size; i++) {
             System.out.println("Element [" + i + "] = " + numbers[i]);
         }
-        System.out.println("ENTER THE ELEMENT WHOSE POSITION YOU WANT TO FIND :");
+        System.out.print("Enter the Element whose Position you want to Find : ");
         int x = sc.nextInt();
 
         for (int i = 0; i < size; i++) {
             if (numbers[i] == x) {
-                System.out.println("THE ELEMENT " + x + " IS AT THE POSITION : " + i);
+                System.out.println("The Element " + x + " is at the Position : " + i);
             }
         }
 
