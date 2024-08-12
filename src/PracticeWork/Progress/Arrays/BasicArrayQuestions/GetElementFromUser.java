@@ -5,7 +5,7 @@ package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 
 import java.util.Scanner;
 
-public class GetElementFromUser__1 {
+public class GetElementFromUser {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

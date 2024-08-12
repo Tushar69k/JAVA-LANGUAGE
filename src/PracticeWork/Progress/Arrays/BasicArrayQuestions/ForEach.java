@@ -1,7 +1,7 @@
 // Use of For each loop
 package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 
-public class ForEachAndMarksLength__3 {
+public class ForEach {
 
     public static void main(String[] args) {
 
