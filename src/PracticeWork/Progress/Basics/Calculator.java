@@ -2,7 +2,7 @@ package PracticeWork.Progress.Basics;
 
 import java.util.Scanner;
 
-public class Calculator_4 {
+public class Calculator {
     public static void main(String[] args) {
         System.out.println("Program for calculating Sum and Difference using switch statement :: ");
 //        System.out.println("\t\t<------------ Welcome ------------->");
