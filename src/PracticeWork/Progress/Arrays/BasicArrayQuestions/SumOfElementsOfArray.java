@@ -3,7 +3,7 @@ package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 
 import java.util.*;
 
-public class sumOfFloat__4 {
+public class SumOfElementsOfArray {
     public static void main(String[] args) {
         float[] arr = new float[5];
         Scanner sc = new Scanner(System.in);
