@@ -3,7 +3,7 @@ package PracticeWork.Progress.MethodsAndFunctions;
 
 import java.util.*;
 
-public class SumOfNaturalNumbers__3 {
+public class SumOfNaturalNumbers {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter Number : ");
