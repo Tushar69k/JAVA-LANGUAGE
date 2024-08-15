@@ -5,11 +5,10 @@ import java.util.*;
 public class CountingSort__4 {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
-
 //        int[] arr = Setarr();
         int[] arr = {1, 4, 1, 3, 2, 4, 3, 7};
         GetArr(arr);
-        SelectionSort(arr);
+        CountingSort(arr);
     }
 
     public static int[] Setarr() {
@@ -36,7 +35,7 @@ public class CountingSort__4 {
 
     }
 
-    public static void SelectionSort(int[] arr) {
+    public static void CountingSort(int[] arr) {
         Scanner tush = new Scanner(System.in);
 
         int largest = Integer.MIN_VALUE;
@@ -72,7 +71,7 @@ public class CountingSort__4 {
             }
         }
 
-        System.out.println(" Counting Sort :: ");
+        System.out.println("Counting Sort :: ");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(" | " + arr[i]);
         }

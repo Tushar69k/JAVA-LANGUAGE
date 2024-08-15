@@ -1,13 +1,14 @@
-package PracticeWork.Progress.Oops;
+package PracticeWork.Progress.Oops.HUHUHUHUHUHU;
 
 import java.util.*;
 
 public class CallingClassInFunction__2 {
 
-    public static class Cars { // Craeting Class
+    public static class Cars { // Creating Class
         String name;
         String type;
-        int number;
+        private int number;
+
     }
 
     public static void Function(Cars x) { // Giving datatype of class name(Cars)

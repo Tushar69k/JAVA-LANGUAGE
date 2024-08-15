@@ -1,4 +1,4 @@
-package PracticeWork.Progress.Oops.Classes.Inheritance;
+package PracticeWork.Progress.Oops.Inheritance;
 
 import java.util.*;
 
