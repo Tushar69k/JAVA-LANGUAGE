@@ -17,6 +17,7 @@ public class MaximumElement__9 {
         for (int i = 0; i < l; i++) {
             System.out.print("Element " + (i + 1) + " : ");
             arr[i] = tush.nextInt();
+
         }
 
         System.out.println("\n Array Elements are :: ");
