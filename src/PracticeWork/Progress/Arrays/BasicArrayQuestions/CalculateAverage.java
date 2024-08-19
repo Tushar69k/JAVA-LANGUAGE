@@ -4,7 +4,7 @@ package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 import java.util.*;
 
 @SuppressWarnings("DataFlowIssue")
-public class CalculateAverage__6 {
+public class CalculateAverage {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
