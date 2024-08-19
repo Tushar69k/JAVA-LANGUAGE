@@ -4,7 +4,7 @@ package PracticeWork.CodeWithHarry.Arrays;
 
 import java.util.Scanner;
 
-public class MinimumElement__10 {
+public class MinimumElement {
 
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
