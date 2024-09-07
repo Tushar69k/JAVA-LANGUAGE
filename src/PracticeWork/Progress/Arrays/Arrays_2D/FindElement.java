@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays.Arrays_2D;
 
 import java.util.*;
 
-public class FindElement__1 {
+public class FindElement {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         int[][] Matrix = SetMatrix();
