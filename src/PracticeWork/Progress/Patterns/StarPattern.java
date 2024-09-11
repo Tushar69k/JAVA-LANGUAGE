@@ -2,7 +2,7 @@ package PracticeWork.Progress.Patterns;
 
 import java.util.*;
 
-public class StarPattern__1 {
+public class StarPattern {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter Size : ");
