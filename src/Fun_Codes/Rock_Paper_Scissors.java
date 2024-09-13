@@ -3,7 +3,7 @@ package Fun_Codes;
 
 import java.util.*;
 
-public class Rock_Paper_Scissors__1 {
+public class Rock_Paper_Scissors {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("\n\t\t\t:: ROCK , PAPER , SCISSORS ::");
