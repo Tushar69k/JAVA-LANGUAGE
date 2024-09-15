@@ -1,6 +1,6 @@
 package PracticeWork.Progress.Basics;
 
-public class DataTypes_2 {
+public class DataTypes {
     public static void main(String[] args) {
 
         // 1 BYTE = 8 BITES
