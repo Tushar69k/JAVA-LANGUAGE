@@ -5,7 +5,7 @@ package PracticeWork.Progress.Basics;
 
 import java.util.Scanner;
 
-public class AreaOfRectangle__7 {
+public class AreaOfRectangle {
 
 
     public static void main(String args[]) {
