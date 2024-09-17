@@ -6,7 +6,7 @@ package PracticeWork.Progress.Basics;
 
 import java.util.Scanner;
 
-public class AlphabetOrNot__9 {
+public class AlphabetOrNot {
 
 
     public static void main(String[] args) {
