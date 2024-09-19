@@ -2,7 +2,7 @@ package FunctionsUsage.Array;
 
 import java.util.Scanner;
 
-public class MultiDimensionalArray__1 {
+public class MultiDimensionalArray {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         System.out.print("Enter No. of Rows = ");
