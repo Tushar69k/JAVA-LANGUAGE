@@ -10,7 +10,7 @@ substring(i); --> gives substring from index i to end of string
 
 package FunctionsUsage.Strings;
 
-public class SubString__2 {
+public class SubString {
     public static void main(String[] args) {
         String s = "abcd";
         System.out.print(" " + s.substring(0, 1));
