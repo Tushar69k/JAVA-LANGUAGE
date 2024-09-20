@@ -8,7 +8,7 @@ substring(i,j) --> gives substring from index i to (j-1)
 substring(i); --> gives substring from index i to end of string
  */
 
-package FunctionsUsage.Strings;
+package FunctionsUsage.String;
 
 public class SubString {
     public static void main(String[] args) {

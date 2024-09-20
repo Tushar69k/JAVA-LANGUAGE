@@ -1,4 +1,4 @@
-package FunctionsUsage.Strings;
+package FunctionsUsage.String;
 
 import java.util.*;
 
