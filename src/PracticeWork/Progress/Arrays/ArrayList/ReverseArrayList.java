@@ -1,9 +1,8 @@
 package PracticeWork.Progress.Arrays.ArrayList;
 
-import java.sql.SQLOutput;
 import java.util.*;
 
-public class ReverseArrayList__2 {
+public class ReverseArrayList {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         ArrayList<Integer> arr = new ArrayList<>();
