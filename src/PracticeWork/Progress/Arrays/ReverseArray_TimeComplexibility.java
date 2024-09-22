@@ -3,7 +3,7 @@ package PracticeWork.Progress.Arrays;
 import java.util.*;
 
 
-public class ReverseArray_TimeComplexibility__2 {
+public class ReverseArray_TimeComplexibility {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter Size of Array : ");
