@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays.CodeChef;
 
 import java.util.*;
 
-public class NumberOfCodesInWeek__1 {
+public class NumberOfCodesInWeek {
 
     public static void main(String[] args) throws java.lang.Exception {
         Scanner Sc = new Scanner(System.in);
