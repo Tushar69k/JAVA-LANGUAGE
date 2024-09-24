@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays;
 
 import java.util.*;
 
-public class StockMarkte__9 {
+public class StockMarkte {
     public static void main(String[] args) {
 
 
