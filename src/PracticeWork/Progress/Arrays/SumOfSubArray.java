@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays;
 
 import java.util.*;
 
-public class SumOfSubArray__5 {
+public class SumOfSubArray {
     public static void main(String[] args) {
         int[] arr = Setarr();
         GetArr(arr);
