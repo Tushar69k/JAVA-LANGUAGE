@@ -2,7 +2,7 @@ package PracticeWork.Progress.SortingAlgorithm;
 
 import java.util.*;
 
-public class BubbleSort__1 {
+public class BubbleSort {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
