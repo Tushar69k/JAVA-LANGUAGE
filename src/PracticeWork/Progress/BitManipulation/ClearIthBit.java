@@ -2,7 +2,7 @@ package PracticeWork.Progress.BitManipulation;
 
 import java.util.*;
 
-public class ClearIthBit__5 {
+public class ClearIthBit {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("Program to Clear ith Bit :: ");
