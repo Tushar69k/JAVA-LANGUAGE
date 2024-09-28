@@ -2,7 +2,7 @@ package PracticeWork.Progress.Basics;
 
 import java.util.Scanner;
 
-public class SumOfEvenAndOdd_6 {
+public class SumOfEvenAndOdd {
     public static void main(String[] args) {
         System.out.println("\nProgram to calculate Sum of Even and Odd Numbers :: ");
 //        System.out.println();
