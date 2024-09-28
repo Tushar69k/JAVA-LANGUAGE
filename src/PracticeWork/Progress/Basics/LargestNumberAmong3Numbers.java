@@ -5,7 +5,7 @@ package PracticeWork.Progress.Basics;
 
 import java.util.Scanner;
 
-public class LargestNumberAmong3Numbers__8 {
+public class LargestNumberAmong3Numbers {
 
     public static void main(String args[]) {
         Scanner tush = new Scanner(System.in);
