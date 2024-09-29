@@ -2,7 +2,7 @@ package PracticeWork.Progress.BitManipulation;
 
 import java.util.*;
 
-public class CheckPowerOfTwo__9 {
+public class CheckPowerOfTwo {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
