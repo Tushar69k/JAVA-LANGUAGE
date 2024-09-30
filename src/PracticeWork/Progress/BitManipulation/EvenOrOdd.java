@@ -2,7 +2,7 @@ package PracticeWork.Progress.BitManipulation;
 
 import java.util.*;
 
-public class EvenOrOdd__2 {
+public class EvenOrOdd {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         Checker();
