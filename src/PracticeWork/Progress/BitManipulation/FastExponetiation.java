@@ -2,7 +2,7 @@ package PracticeWork.Progress.BitManipulation;
 
 import java.util.*;
 
-public class FastExponetiation__11 {
+public class FastExponetiation {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("Program to Check Exponential (Fast Method) :: ");
