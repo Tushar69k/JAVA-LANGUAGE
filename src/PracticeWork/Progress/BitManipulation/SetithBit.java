@@ -2,7 +2,7 @@ package PracticeWork.Progress.BitManipulation;
 
 import java.util.*;
 
-public class SetithBit__4 {
+public class SetithBit {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
