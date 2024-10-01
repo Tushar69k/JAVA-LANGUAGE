@@ -2,7 +2,7 @@ package PracticeWork.Progress.BitManipulation;
 
 import java.util.*;
 
-public class GetithBit__3 {
+public class GetithBit {
     public static void main(String[] args) {
         Getithterm();
     }
