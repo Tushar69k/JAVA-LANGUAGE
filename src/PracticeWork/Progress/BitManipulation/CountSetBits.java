@@ -2,7 +2,7 @@ package PracticeWork.Progress.BitManipulation;
 
 import java.util.*;
 
-public class CountSetBits__10 {
+public class CountSetBits {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("Program to Count Set Bits of Number :: ");
