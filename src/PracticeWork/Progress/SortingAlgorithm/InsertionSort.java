@@ -2,7 +2,7 @@ package PracticeWork.Progress.SortingAlgorithm;
 
 import java.util.*;
 
-public class InsertionSort__3 {
+public class InsertionSort {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
