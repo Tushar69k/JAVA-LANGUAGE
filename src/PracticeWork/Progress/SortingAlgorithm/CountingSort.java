@@ -2,7 +2,7 @@ package PracticeWork.Progress.SortingAlgorithm;
 
 import java.util.*;
 
-public class CountingSort__4 {
+public class CountingSort {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 //        int[] arr = Setarr();
