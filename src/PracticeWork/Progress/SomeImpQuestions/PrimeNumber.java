@@ -2,7 +2,7 @@ package PracticeWork.Progress.SomeImpQuestions;
 
 import java.util.*;
 
-public class PrimeNumber__1 {
+public class PrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println(" Enter Number Check whether a Number is Prime or Not :  ");
