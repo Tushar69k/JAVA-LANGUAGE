@@ -2,7 +2,7 @@ package PracticeWork.Progress.SomeImpQuestions;
 
 import java.util.*;
 
-public class Palindrome__5 {
+public class Palindrome {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
