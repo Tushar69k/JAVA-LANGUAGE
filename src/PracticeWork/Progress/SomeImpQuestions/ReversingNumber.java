@@ -1,7 +1,7 @@
 package PracticeWork.Progress.SomeImpQuestions;
 import java.util.*;
 
-public class ReversingNumber__3 {
+public class ReversingNumber {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
