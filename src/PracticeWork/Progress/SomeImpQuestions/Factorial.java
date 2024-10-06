@@ -2,7 +2,7 @@ package PracticeWork.Progress.SomeImpQuestions;
 
 import java.util.*;
 
-public class Factorial__2 {
+public class Factorial {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println(" Enter a Number to find Factorial :  ");
