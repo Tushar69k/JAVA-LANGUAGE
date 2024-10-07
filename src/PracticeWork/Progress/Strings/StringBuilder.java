@@ -5,12 +5,12 @@ package PracticeWork.Progress.Strings;
 
 import java.util.*;
 
-public class StringBuilder__9 {
+public class StringBuilder {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         // Use of append()
         System.out.println("Here, i used append() to merge to Strings ::");
-        StringBuilder str = new StringBuilder("Welcome Bhairava!");
+        java.lang.StringBuilder str = new java.lang.StringBuilder("Welcome Bhairava!");
         str.append(" Here you Go Now !\n");
         System.out.println(str);
 
