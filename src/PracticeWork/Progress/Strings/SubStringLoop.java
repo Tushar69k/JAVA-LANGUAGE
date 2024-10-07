@@ -4,7 +4,7 @@ package PracticeWork.Progress.Strings;
 
 import java.util.*;
 
-public class SubStringLoop__8 {
+public class SubStringLoop {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         String str = SetString();
