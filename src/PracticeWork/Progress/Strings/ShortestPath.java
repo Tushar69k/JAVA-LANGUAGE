@@ -2,7 +2,7 @@ package PracticeWork.Progress.Strings;
 
 import java.util.*;
 
-public class ShortestPath__2 {
+public class ShortestPath {
     public static void main(String[] args) {
         String path = "WNEENESENNN";
         System.out.println("Guide how to use this program ::");
