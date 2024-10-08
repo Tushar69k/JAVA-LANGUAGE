@@ -2,9 +2,7 @@ package PracticeWork.Progress.Strings;
 
 import java.util.*;
 
-import static jdk.internal.org.jline.utils.Colors.s;
-
-public class PalindromeSubSubtring__11 {
+public class PalindromeSubSubtring {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         String str = SetString();
