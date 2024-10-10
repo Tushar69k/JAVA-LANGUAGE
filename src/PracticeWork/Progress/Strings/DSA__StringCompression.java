@@ -2,7 +2,7 @@ package PracticeWork.Progress.Strings;
 
 import java.util.*;
 
-public class DSA__StringCompression__7 {
+public class DSA__StringCompression {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         String str = SetString();
