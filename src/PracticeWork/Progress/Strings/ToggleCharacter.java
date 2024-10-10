@@ -5,7 +5,7 @@ package PracticeWork.Progress.Strings;
 
 import java.util.*;
 
-public class ToggleCharacter__10 {
+public class ToggleCharacter {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         StringBuilder str = new StringBuilder(SetString());
