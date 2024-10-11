@@ -3,7 +3,7 @@ package PracticeWork.Progress.Strings.StringQuestions;
 
 import java.util.Scanner;
 
-public class ReplaceSpaces__2 {
+public class ReplaceSpaces {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
