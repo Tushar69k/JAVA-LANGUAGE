@@ -3,7 +3,7 @@ package PracticeWork.Progress.Strings.StringQuestions;
 
 import java.util.*;
 
-public class ConvertStringToLowercase__1 {
+public class ConvertStringToLowercase {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
