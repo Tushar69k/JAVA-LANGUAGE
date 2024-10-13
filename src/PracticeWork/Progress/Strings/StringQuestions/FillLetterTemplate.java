@@ -6,7 +6,7 @@ package PracticeWork.Progress.Strings.StringQuestions;
 
 import java.util.Scanner;
 
-public class FillLetterTemplate__3 {
+public class FillLetterTemplate {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Our String is ::");
