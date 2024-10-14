@@ -2,7 +2,7 @@ package PracticeWork.Progress.Strings.StringQuestions;
 
 import java.util.*;
 
-public class ReverseString__5 {
+public class ReverseString {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         String str;
