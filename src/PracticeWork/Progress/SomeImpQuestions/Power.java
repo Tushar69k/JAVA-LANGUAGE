@@ -2,7 +2,7 @@ package PracticeWork.Progress.SomeImpQuestions;
 
 import java.util.Scanner;
 
-public class Power_ {
+public class Power {
 
 
     public static void main(String args[]) {
