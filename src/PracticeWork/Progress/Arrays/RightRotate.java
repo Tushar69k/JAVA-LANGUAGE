@@ -3,7 +3,7 @@ package PracticeWork.Progress.Arrays;
 import java.util.*;
 
 
-public class RightRotate_ {
+public class RightRotate {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 //        int[] arr = Setarr();
