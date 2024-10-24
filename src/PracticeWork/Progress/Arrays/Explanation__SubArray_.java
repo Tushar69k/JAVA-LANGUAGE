@@ -4,7 +4,7 @@ package PracticeWork.Progress.Arrays;
 
 import java.util.*;
 
-public class Explanation__SubArray {
+public class Explanation__SubArray_ {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         int[] arr = {1, 2, 3, 4, 5};
