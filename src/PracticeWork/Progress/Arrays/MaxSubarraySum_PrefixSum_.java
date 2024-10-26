@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays;
 
 import java.util.*;
 
-public class MaxSubarraySum_PrefixSum {
+public class MaxSubarraySum_PrefixSum_ {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
