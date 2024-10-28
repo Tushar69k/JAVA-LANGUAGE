@@ -1,6 +1,6 @@
 package PracticeWork.Progress.Basics;
 
-public class Print {
+public class Print_ {
 
     public static void main(String[] args) {
         int first = 100;
