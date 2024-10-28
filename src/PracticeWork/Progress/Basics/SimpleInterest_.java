@@ -5,7 +5,7 @@ package PracticeWork.Progress.Basics;
 
 import java.util.Scanner;
 
-public class SimpleInterest {
+public class SimpleInterest_ {
 
     public static void main(String args[]) {
         System.out.println("Program to calculate Simple Interest :: ");
