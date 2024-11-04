@@ -2,7 +2,7 @@ package FunctionsUsage.String;
 
 import java.util.*;
 
-public class FunctionOfString_ {
+public class FunctionOfString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // Basics of String Input , Output , Copying String
