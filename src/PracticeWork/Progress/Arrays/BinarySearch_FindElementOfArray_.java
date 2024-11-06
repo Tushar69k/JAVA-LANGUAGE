@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays;
 
 import java.util.*;
 
-public class BinarySearch_FindElementOfArray {
+public class BinarySearch_FindElementOfArray_ {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter Size of Array : ");
