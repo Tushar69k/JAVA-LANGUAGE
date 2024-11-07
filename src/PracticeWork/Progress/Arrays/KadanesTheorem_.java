@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays;
 
 import java.util.*;
 
-public class KadanesTheorem {
+public class KadanesTheorem_ {
 
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
