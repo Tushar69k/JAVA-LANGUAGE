@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MultiDimensionalArray {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
-        System.out.print("Enter No. of Rows = ");
+        System.out.print("Enter No. of Rows of Array = ");
         int n = Sc.nextInt();
         System.out.print("Enter No. of Columns = ");
         int m = Sc.nextInt();
