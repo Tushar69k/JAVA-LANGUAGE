@@ -7,7 +7,7 @@ public class MultiDimensionalArray {
         Scanner Sc = new Scanner(System.in);
         System.out.print("Enter No. of Rows of Array = ");
         int n = Sc.nextInt();
-        System.out.print("Enter No. of Columns = ");
+        System.out.print("Enter No. of Columns of Array = ");
         int m = Sc.nextInt();
         int[][] flats = new int[n][m];
 
