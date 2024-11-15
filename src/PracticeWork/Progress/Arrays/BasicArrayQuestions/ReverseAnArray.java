@@ -4,7 +4,7 @@ package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 import java.util.*;
 
 
-public class ReverseAnArray__8 {
+public class ReverseAnArray {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 

@@ -5,7 +5,7 @@ package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 
 import java.util.Scanner;
 
-public class FindAnElementOfArray {
+public class FindAnElementOfArray_ {
 
 
     public static void main(String[] args) {
