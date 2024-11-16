@@ -4,7 +4,7 @@ package PracticeWork.Progress.Basics;
 
 import java.util.Scanner;
 
-public class CalculateCgpa {
+public class CalculateCgpa_ {
     public static void main(String[] args) {
         System.out.println("PROGRAM TO CALCULATE CGPA ");
         System.out.println("ENTER YOUR SUBJECTS OF GIVEN SUBJECTS --->");
