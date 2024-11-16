@@ -2,7 +2,7 @@ package PracticeWork.Progress.Basics;
 
 import java.util.Scanner;
 
-public class CalculatePercentageResult {
+public class CalculatePercentageResult_ {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("\nProgram to Calculate (%) ::");
