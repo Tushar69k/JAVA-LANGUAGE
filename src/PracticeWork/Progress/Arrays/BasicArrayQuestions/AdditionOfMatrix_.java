@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 
 import java.util.*;
 
-public class AdditionOfMatrix {
+public class AdditionOfMatrix_ {
     public static void main(String[] args) {
 
 
