@@ -5,7 +5,7 @@ package PracticeWork.Progress.Arrays.BasicArrayQuestions;
 
 import java.util.*;
 
-public class SortedOrNot_ {
+public class SortedOrNot {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
