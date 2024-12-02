@@ -2,7 +2,7 @@ package PracticeWork.Progress.Strings;
 
 import java.util.*;
 
-public class Palindrome {
+public class Palindrome_ {
     public static void main(String[] args) {
         System.out.println("Program to check String is Palindrome or Not :: ");
         Scanner tush = new Scanner(System.in);
