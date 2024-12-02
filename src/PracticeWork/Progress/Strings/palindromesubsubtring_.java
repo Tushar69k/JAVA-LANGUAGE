@@ -2,7 +2,7 @@ package PracticeWork.Progress.Strings;
 
 import java.util.*;
 
-public class PalindromeSubSubtring {
+public class palindromesubsubtring_ {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         String str = SetString();
