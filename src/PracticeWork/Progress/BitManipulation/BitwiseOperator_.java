@@ -2,7 +2,7 @@ package PracticeWork.Progress.BitManipulation;
 
 import java.util.*;
 
-public class BitwiseOperators {
+public class BitwiseOperator_ {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         int a = 5;
