@@ -4,7 +4,7 @@ package PracticeWork.Progress.Basics;
 
 import java.util.Scanner;
 
-public class Power_ {
+public class Power {
 
     public static void main(String args[]) {
         System.out.println("Program to Calculate Square  :: ");
