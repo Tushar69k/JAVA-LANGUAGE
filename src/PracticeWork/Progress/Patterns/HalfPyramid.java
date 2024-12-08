@@ -2,7 +2,7 @@ package PracticeWork.Progress.Patterns;
 
 import java.util.*;
 
-public class HalfPyramid_ {
+public class HalfPyramid {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.print("Enter Size : ");
