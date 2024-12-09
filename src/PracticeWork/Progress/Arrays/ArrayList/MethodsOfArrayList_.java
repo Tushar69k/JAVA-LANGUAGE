@@ -2,7 +2,7 @@ package PracticeWork.Progress.Arrays.ArrayList;
 
 import java.util.*;
 
-public class MethodsOfArrayList {
+public class MethodsOfArrayList_ {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
 
