@@ -2,7 +2,7 @@ package PracticeWork.Progress.Loops;
 
 import java.util.*;
 
-public class PatternReverse_ {
+public class PatternReverse {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("Enter Number : ");
