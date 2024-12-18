@@ -2,7 +2,7 @@ package PracticeWork.Progress.Afterwards;
 
 import java.util.Scanner;
 
-public class Conditional {
+public class Conditional_ {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
         System.out.println("Enter the No. of your day : ");
