@@ -1,10 +1,8 @@
 package PracticeWork.Progress.Afterwards;
 
-import PracticeWork.Progress.Oops.Inheritance.SingleLevel;
-
 import java.util.*;
 
-public class Singlelevelinheritance {
+public class Singlelevelinheritance_ {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
