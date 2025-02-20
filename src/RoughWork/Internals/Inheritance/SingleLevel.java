@@ -1,12 +1,11 @@
-package PracticeWork.Progress.Afterwards;
+package RoughWork.Internals.Inheritance;
 
-import java.util.*;
+import java.util.Scanner;
 
-public class Singlelevelinheritance_ {
+public class SingleLevel {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        Dog d1 = new Dog();
+        Scanner tush = new Scanner(System.in);
+        Dogs d1 = new Dogs();
         d1.legs = 4;
         d1.food = "Pedegree";
         d1.breed = "Labra";
@@ -24,12 +23,11 @@ public class Singlelevelinheritance_ {
         String food;
     }
 
-    static class Dog extends Animal {
+    static class Dogs extends Animal {  // Dog Class is Single Level Inherited by Animal Class
         String breed;
 
         void Sound() {
             System.out.println("Bhow Bhow!");
         }
     }
-
 }
