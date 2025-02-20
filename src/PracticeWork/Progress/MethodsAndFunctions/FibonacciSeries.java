@@ -3,6 +3,7 @@ package PracticeWork.Progress.MethodsAndFunctions;
 
 import java.util.*;
 
+
 public class FibonacciSeries {
     public static void main(String[] args) {
         Scanner tush = new Scanner(System.in);
@@ -18,6 +19,7 @@ public class FibonacciSeries {
         int n3;
 
         System.out.print(n1 + " " + n2);
+
         if (count == 1) {
             System.out.print(n1);
             return;

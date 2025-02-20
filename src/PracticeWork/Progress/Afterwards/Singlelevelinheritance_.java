@@ -10,7 +10,7 @@ public class Singlelevelinheritance_ {
         d1.legs = 4;
         d1.food = "Pedegree";
         d1.breed = "Labra";
-        p
+
         System.out.println("Dogs has " + d1.legs + " Legs.");
         System.out.println("Dogs eats " + d1.food + ".");
         System.out.println("Dogs has " + d1.breed + " Breed.");
