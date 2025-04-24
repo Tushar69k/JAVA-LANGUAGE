@@ -1,4 +1,4 @@
-package Exam.Reviced;
+package Exam.Done;
 
 import java.util.Random;
 
@@ -7,7 +7,7 @@ public class Megaq {
     static final int ARRAY_SIZE = 100;
     static final int THREAD_COUNT = 4;
     static final int[] arr = new int[ARRAY_SIZE];
-    static volatile boolean found = false;
+    //    static volatile boolean found = false;
     static int target = 0; // number to search
 
     public static void main(String[] args) {
